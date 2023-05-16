@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--    시간 업데이트를 비동기로 처리해줌-->
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center_horizontal"
+        android:textSize="60dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="70dp"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_button"
+            android:text="Start"
+            android:textColor="#0000FF"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/stopButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_button"
+            android:text="Stop"
+            android:textColor="#0000FF"
+            android:textStyle="bold"
+            android:layout_marginLeft="25dp"
+            android:enabled="false"/><!--이벤트 처리 안함-->
+        <Button
+            android:id="@+id/resetButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_button"
+            android:text="Reset"
+            android:textColor="#0000FF"
+            android:textStyle="bold"
+            android:layout_marginLeft="25dp"
+            android:enabled="false"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

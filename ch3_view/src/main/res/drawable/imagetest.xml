@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/flower1"
+        android:state_pressed="true"/> <!--터치했을 때 해당 이미지 노출-->
+    <item android:drawable="@drawable/flower2"/>
+</selector>
