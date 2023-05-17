@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  문자열 리소스를 여러개 한꺼번에 이용한다면 배열로 등록하여 관리한다  R.array.my_color
+          목록 설정 출력 문자열
+    -->
+    <string-array name="my_color">
+        <item>빨강</item>
+        <item>파랑</item>
+        <item>초록</item>
+    </string-array>
+<!--    목록 저장 선택 값-->
+    <string-array name="my_color_values">
+        <item>#FF0000</item>
+        <item>#0000FF</item>
+        <item>#00FF00</item>
+    </string-array>
+</resources>

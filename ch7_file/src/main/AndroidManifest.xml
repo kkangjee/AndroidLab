@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--외장, 공용 파일 이용 시 필요-->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!--API Level 33 부터는 이의 퍼미션이 요구되는 것이 아니라 공용의 파일 타입에 따라 다르게 구현이 필요-->
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AndroidLab">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!--    adroid: 사용 x-->
+    <SwitchPreferenceCompat
+        app:key="a1"
+        app:title="A1 - title"
+        app:summary="A1 - Summary"/>
+<!--    summary는 코드에서 동적으로 만들 예정-->
+    <EditTextPreference
+        app:key="id"
+        app:title="ID"/>
+<!--    <MultiSelectListPreference 여러개 값-->
+    <ListPreference
+        app:key="color"
+        app:title="Color"
+        android:entries="@array/my_color"
+        android:entryValues="@array/my_color_values"/>
+</PreferenceScreen>

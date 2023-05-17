@@ -16,3 +16,7 @@ rootProject.name = "AndroidLab"
 include ':app' // 모듈을 삭제하려면 해당 라인 주석 후 폴더 삭제
 include ':ch3_view'
 include ':ch5_event'
+include ':ch6_resource'
+include ':ch7_database'
+include ':ch7_file'
+include ':ch7_settings'
