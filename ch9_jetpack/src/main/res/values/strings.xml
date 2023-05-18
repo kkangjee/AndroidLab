@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ch9_jetpack</string>
+<!--    ActionBarDrawerToggle 에 저장할 문자열
+        리소스 타입이어야 함-->
+    <string name="drawer_opened">Open Drawer</string>
+    <string name="drawer_closed">Close Drawer</string>
+</resources>

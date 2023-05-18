@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+<!--    툴바 사용 할 예정이므로 noActionBar-->
+    <style name="Base.Theme.AndroidLab" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">#FF0</item>
+        <item name="android:statusBarColor">#F00</item>
+    </style>
+
+    <style name="Theme.AndroidLab" parent="Base.Theme.AndroidLab" />
+</resources>
